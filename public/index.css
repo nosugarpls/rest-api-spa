@@ -1,0 +1,88 @@
+body {
+  background-color: #f5efef;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: block;
+}
+
+li:active, li:focus, li:hover {
+  background-color: #e7dec8;
+  border-radius: 4px;
+}
+
+.status {
+  color: #495464;
+}
+
+input[type="text"] {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.add-name, .add-quantity, .new-quantity {
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #3d7ea6;
+  border: 1px solid #3d7ea6;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+button:active, button:focus, button:hover {
+  background-color: #2d6187;
+  border: 1px solid #fff;
+}
+
+.add, .update {
+  width: 100px;
+}
+
+.delete {
+  background-color: #ce6262;
+  border: 1px solid #ce6262;
+}
+
+.delete:active, .delete:focus, .delete:hover {
+  background-color: #af2d2d;
+  border: 1px solid #fff;
+}
+
+.update {
+  background-color: #99a8b2;
+  border: 1px solid #99a8b2;
+}
+
+.update:active, .update:focus, .update:hover {
+  background-color: #1f6f8b;
+  border: 1px solid #fff;
+}
+
+.name {
+  color: #333456;
+  margin: 20px;
+}
+
+.quantity {
+  color: #1c2b2d;
+  margin: 20px;
+}
